@@ -10,6 +10,7 @@ env:
   DOCKER_IMAGE_NAME: QjStout-azure-ttt
   AZURE_WEBAPP_NAME: QjStout-ttt-app
 
+# Change to allow PR to trigger WF
 jobs:
   build:
     runs-on: ubuntu-latest
